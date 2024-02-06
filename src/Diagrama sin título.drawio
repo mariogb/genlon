@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T18:21:53.398Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" version="22.1.21" etag="egIBQ1Cqsu-8YaPv10ci" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T18:47:04.255Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="4EpX710loy4Z2wkhhKnL" version="22.1.21" type="github">
   <diagram name="Página-1" id="kgTBMcsKncoeDzraaaeP">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ujDk7_DQYMMImE03h3TE-1" value="Navegador" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-2" value="movil" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
+          <mxGeometry x="133.5" y="240" width="18" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="121" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-1" target="ujDk7_DQYMMImE03h3TE-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-2" target="ujDk7_DQYMMImE03h3TE-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="301" y="214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-6" value="&lt;div&gt;Postgres&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="770" y="102" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-9" value="&lt;div&gt;LOAD BALANCER&lt;/div&gt;&lt;div&gt;PROXY&lt;br&gt;&lt;/div&gt;" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="390" y="139.5" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-3" target="ujDk7_DQYMMImE03h3TE-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="450" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-11" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.server_cluster;" vertex="1" parent="1">
+          <mxGeometry x="670" y="92" width="56.00000000000001" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-13" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="110" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-14" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="676" y="160" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-15" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-16" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
