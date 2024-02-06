@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T19:18:57.962Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="_C23D0KI1miRfPgz1ta4" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T19:28:46.449Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="AYuIlp9jfjK-Vcmka0AO" version="22.1.21" type="github">
   <diagram name="Página-1" id="kgTBMcsKncoeDzraaaeP">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ujDk7_DQYMMImE03h3TE-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="94" width="160" height="176" as="geometry" />
+        </mxCell>
         <mxCell id="ujDk7_DQYMMImE03h3TE-1" value="Navegador" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" vertex="1" parent="1">
           <mxGeometry x="40" y="10" width="65" height="52" as="geometry" />
         </mxCell>
@@ -26,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ujDk7_DQYMMImE03h3TE-6" value="&lt;div&gt;Postgres&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="710" y="90" width="60" height="80" as="geometry" />
+          <mxGeometry x="740" y="74" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ujDk7_DQYMMImE03h3TE-9" value="&lt;div&gt;LOAD BALANCER&lt;/div&gt;&lt;div&gt;PROXY&lt;br&gt;&lt;/div&gt;" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.load_balancer;" vertex="1" parent="1">
           <mxGeometry x="300" y="104" width="43" height="43" as="geometry" />
@@ -43,30 +49,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ujDk7_DQYMMImE03h3TE-11" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;" vertex="1" parent="1">
-          <mxGeometry x="530" y="176" width="40" height="40" as="geometry" />
+          <mxGeometry x="578.75" y="154" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="ujDk7_DQYMMImE03h3TE-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.server_cluster;" vertex="1" parent="1">
-          <mxGeometry x="560" y="286.5" width="56.00000000000001" height="28.000000000000004" as="geometry" />
+          <mxGeometry x="560" y="280" width="56.00000000000001" height="28.000000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="ujDk7_DQYMMImE03h3TE-13" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;" vertex="1" parent="1">
-          <mxGeometry x="530" y="130" width="40" height="40" as="geometry" />
+        <mxCell id="ujDk7_DQYMMImE03h3TE-13" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#7F00FF;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;whiteSpace=wrap;labelBorderColor=default;imageBackground=#990099;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujDk7_DQYMMImE03h3TE-14" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
-          <mxGeometry x="490" y="286.5" width="50" height="41" as="geometry" />
+          <mxGeometry x="640" y="280" width="50" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="ujDk7_DQYMMImE03h3TE-15" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;" vertex="1" parent="1">
-          <mxGeometry x="530" y="226" width="40" height="40" as="geometry" />
+        <mxCell id="ujDk7_DQYMMImE03h3TE-15" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#CC00CC;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;imageBackground=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="583" y="231" width="24.5" height="24.5" as="geometry" />
         </mxCell>
-        <mxCell id="ujDk7_DQYMMImE03h3TE-16" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;imageBackground=#570FFF;fillStyle=solid;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ujDk7_DQYMMImE03h3TE-17" value="&lt;div&gt;SERVIDOR con&lt;/div&gt;&lt;div&gt;FRONTENDS&lt;br&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Front_Doors.svg;" vertex="1" parent="1">
-          <mxGeometry x="440" y="30" width="50" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="ujDk7_DQYMMImE03h3TE-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-9" target="ujDk7_DQYMMImE03h3TE-17">
+        <mxCell id="ujDk7_DQYMMImE03h3TE-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-9" target="ujDk7_DQYMMImE03h3TE-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="365" y="121" as="sourcePoint" />
-            <mxPoint x="450" y="330" as="targetPoint" />
+            <mxPoint x="420" y="55.9677419354839" as="targetPoint" />
             <Array as="points">
               <mxPoint x="383" y="50" />
             </Array>
@@ -101,7 +101,49 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ujDk7_DQYMMImE03h3TE-27" value="Otra base/fuente de datos" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="750" y="176" width="70" height="80" as="geometry" />
+          <mxGeometry x="740" y="175.5" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="538" y="270" as="sourcePoint" />
+            <mxPoint x="698" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="274.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-34" value="&lt;div&gt;Servidor&lt;/div&gt;&lt;div&gt;App UI&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="480" y="20" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-35" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#CC00CC;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;imageBackground=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="616" y="231" width="24.5" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-36" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/cluster_management.svg;" vertex="1" parent="1">
+          <mxGeometry x="616" y="175.5" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-11" target="ujDk7_DQYMMImE03h3TE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="sourcePoint" />
+            <mxPoint x="450" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-36" target="ujDk7_DQYMMImE03h3TE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="sourcePoint" />
+            <mxPoint x="450" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="sourcePoint" />
+            <mxPoint x="740" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDk7_DQYMMImE03h3TE-40" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujDk7_DQYMMImE03h3TE-13" target="ujDk7_DQYMMImE03h3TE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="sourcePoint" />
+            <mxPoint x="450" y="100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
